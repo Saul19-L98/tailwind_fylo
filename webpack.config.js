@@ -44,6 +44,9 @@ module.exports = {
 			inject: true,
 			template: './public/index.html',
 			filename: './index.html',
+			minify:{
+				removeComments: true,
+			}
 		})
 	]
 }
